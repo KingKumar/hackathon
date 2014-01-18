@@ -30,7 +30,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
+  background: #fff2f0;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -56,6 +56,10 @@ embed {
 
 img {
   -ms-interpolation-mode: bicubic; }
+
+.marginRight{
+  padding-right: 3%;
+}
 
 #map_canvas img,
 #map_canvas embed,
@@ -1651,7 +1655,7 @@ button, .button {
     font-size: 1.25rem;
     /*     @else                            { font-size: $padding - rem-calc(2); } */ }
   button.small, .button.small {
-    padding-top: 0.875rem;
+    padding-top: 0.9rem;
     padding-right: 1.75rem;
     padding-bottom: 0.9375rem;
     padding-left: 1.75rem;
@@ -2690,7 +2694,7 @@ blockquote p {
     font-size: 2.3125rem; }
 
   h3 {
-    font-size: 1.6875rem; }
+    font-size: 1.8875rem; }
 
   h4 {
     font-size: 1.4375rem; } }
