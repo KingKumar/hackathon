@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>InstantLocalNews</title>
     <link rel="stylesheet" href="Stylesheets/foundation.css" />
-    <script src="Javascript/modernizr.js"></script>
+    <script src="Javascript/bundle.js"></script>
     <script src="Javascript/node.js"></script>
   </head>
   <body>
@@ -23,18 +23,19 @@
       	<div class="large-4 columns">
 	        <h3>What's happening in </h3>
         </div>
-        <div class="large-5 columns" id="locationName">
-          <input type="text" placeholder="Enter Location" />
+        <div class="large-5 columns">
+          <input type="text" placeholder="Enter Location"  id="locationName"/>
         </div>
         <div class="large-1 columns">
           <h3>?</h3>
       	</div>
         <div class="large-2 columns marginRight">
-          <a href="#" class="small success button">Go!</a>
+          <a href="#" class="small success button" onclick="getLocation()">Go!</a>
         </div>
       </div>
     </div>
-
+    <div class="large-6 columns" id="twitterPosts"></div>
+    <div class="large-6 columns" id="instagramPosts"></div>
     <div class="row panel">
       <div class="large-12 columns">
         <p>Insert a location in the above form and hit Go! InstantLocalNews will fill your feed with Instagram photos and Tweets posted and tweeted, respectively, from the location you specified. What better way to find out what's going on at a location than by seeing what people are saying and by viewing the photos they take?<p>
